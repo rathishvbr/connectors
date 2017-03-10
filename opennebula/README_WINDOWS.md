@@ -4,25 +4,24 @@
 
 "context.ps1" and "startup.vbs" helps to setting up all configuration when booting up the windows image.
 
- context.ps1 - https://raw.githubusercontent.com/OpenNebula/addon-context-windows/master/context.ps1
+ context.ps1 - [Download here](https://raw.githubusercontent.com/OpenNebula/addon-context-windows/master/context.ps1)
 
- startup.vbs - https://raw.githubusercontent.com/OpenNebula/addon-context-windows/master/startup.vbs
+ startup.vbs - [Download here](https://raw.githubusercontent.com/OpenNebula/addon-context-windows/master/startup.vbs)
 
- gulpd.conf - https://raw.githubusercontent.com/megamsys/gitpackager/master/verticegulpd/windows/gulpd.conf
+ gulpd.conf - [Download here](https://raw.githubusercontent.com/megamsys/gitpackager/master/verticegulpd/windows/gulpd.conf)
 
 ## Step 2: Download MegamVertice/VirtEngine Agent - `gulpd.exe`
 
 "MegamVertice/VirtEngine Agent" is an agent that runs inside the Virtual Machine.
 
- gulpd.exe - https://s3.amazonaws.com/vertice/testing/1.5.1/gulpd.exe
+ gulpd.exe - [Download here](https://s3.amazonaws.com/vertice/testing/1.5.1/gulpd.exe)
 
 
  ## Step 3: Start your windows image in OpenNebula
 
  We assume that you have running OpenNebula installation with Windows (2008 R2/ 2012) image.
 
- If you don't have an image then you can download a copy from
- -
+ If you don't have an image then you can download a copy from [here](https://cloudbase.it/windows-cloud-images/)
 
  ## Step 4: RDP into Windows instance
 
@@ -44,11 +43,11 @@
 ````
   - Click `Start > Run` *gpedit.msc* which will open **Local group policy editor**
 
-  ![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+  ![alt tag](https://github.com/megamsys/connectors/blob/master/opennebula/steps_image/gpedit.png)
 
   - Click `Windos Setting > Scripts(Startup/Shutdown) > Startup > Properties` which will display **Startup Properties**
 
-  ![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+  ![alt tag](https://github.com/megamsys/connectors/blob/master/opennebula/steps_image/gpedit_setting.png)
 
   - In script tab you can find **Add** button.
 
