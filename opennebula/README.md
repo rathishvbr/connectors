@@ -1,10 +1,12 @@
-# Connector for Linux
+# Customize Linux image to use in MegamVertice/VirtEngine.
 
 ## init1.5.sh
 
 The init1.5.sh script helps to update latest version of our cloud agent(`gulpd`) and its configuration(`gulp.conf`) file in the virtual machine images that `MegamVertice` provides auto-magically.
 
 ## To use the init1.5.sh
+
+Goto OpenNebula Master
 
 ```bash
 
@@ -75,8 +77,8 @@ The supported branches are `testing, stable`.
 
 ```
 
-true "${version:=1.5}"
-true "${branch:=testing}"
+true "${version:=1.5.1}"
+true "${branch:=stable}"
 
 ```
 
