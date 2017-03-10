@@ -14,7 +14,7 @@
 
 "MegamVertice/VirtEngine Agent" is an agent that runs inside the Virtual Machine.
 
- gulpd.exe - https://raw.githubusercontent.com/OpenNebula/addon-context-windows/master/startup.vbs
+ gulpd.exe - https://s3.amazonaws.com/vertice/testing/1.5.1/gulpd.exe
 
 
  ## Step 3: Start your windows image in OpenNebula
@@ -44,11 +44,11 @@
 ````
   - Click `Start > Run` *gpedit.msc* which will open **Local group policy editor**
 
-  - {{image}}
+  ![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
   - Click `Windos Setting > Scripts(Startup/Shutdown) > Startup > Properties` which will display **Startup Properties**
 
-  - {{image}}
+  ![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
   - In script tab you can find **Add** button.
 
